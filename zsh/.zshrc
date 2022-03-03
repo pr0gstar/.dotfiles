@@ -76,7 +76,7 @@ SPACESHIP_PROMPT_ORDER=(
   exit_code         # Exit code section
   char              # Prompt character
 )
-# End Config
+# End Spaceship Config
 
 # Begin Exports
 # export LC_ALL=de_DE.UTF-8

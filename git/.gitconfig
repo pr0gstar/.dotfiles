@@ -15,7 +15,6 @@
     minus-style = "syntax #340001"
     syntax-theme = Monokai Extended
     line-numbers = true
-
 [interactive]
     diffFilter = delta --color-only
 [init]
