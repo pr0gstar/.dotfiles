@@ -97,7 +97,6 @@ plugins=(
   python
 #  bundler
 #  dotenv
-#  osx
    macos
 #  rake
 #  rbenv
@@ -107,15 +106,6 @@ plugins=(
   terraform
 )
 # End zsh Plugins
-
-# ----------------------
-# Git Aliases
-# ----------------------
-
-alias gcm='git commit --message'
-alias gl='git pull'
-
-# End Git-Alias
 
 # Begin NVM
 export NVM_DIR=~/.nvm
@@ -135,10 +125,18 @@ export NVM_SYMLINK_CURRENT=true
 eval $(minikube docker-env)
 # End Minikube
 
+# Begin pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+# End pyenv
+
 # Begin Alias
-alias startup='./clearcache.sh && yarn run encore dev && php bin/console server:run'
-alias yred='yarn run encore dev'
-alias yrep='yarn run encore production'
+alias gcm='git commit --message'
+alias gl='git pull'
 alias ll='exa -l -a'
 alias ls='exa'
 alias gclear='git fetch -p && for branch in `git branch -vv | grep ": gone]" | awk "{print $1}"`; do git branch -D $branch; done'
@@ -157,9 +155,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Loadingtimes
 # zprof # bottom of .zshrc
-if command -v pyenv 1>/dev/null 2>&1; then
-  export PYENV_ROOT="$HOME/.pyenv"
-  export PATH="$PYENV_ROOT/bin:$PATH"
-  eval "$(pyenv init --path)"
-  eval "$(pyenv init -)"
-fi
