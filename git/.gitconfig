@@ -1,7 +1,6 @@
-[includeIf "gitdir:/Users/christoph.planken/"]
-    path = ~/.dotfiles/git/.gitconfig.work
-[includeIf "gitdir:/Users/pr0gstar/"]
-    path = ~/.dotfiles/git/.gitconfig.private
+[user]
+    name = pr0gstar
+    email = ch.planken@gmail.com
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
@@ -24,3 +23,5 @@
     sort = -committerdate
 [alias]
     start = !git checkout master && git pull && git clean -fd
+[includeIf "gitdir:/Users/christoph.planken/"]
+    path = ~/.dotfiles/git/.gitconfig.work
