@@ -134,6 +134,10 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 # End pyenv
 
+# Begin Source
+source $ZSH/oh-my-zsh.sh
+# End Source
+
 # Begin Alias
 alias gcm='git commit --message'
 alias gl='git pull'
@@ -148,10 +152,6 @@ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Fra
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Plugin).app" &&
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app"'
 # End Alias
-
-# Begin Source
-source $ZSH/oh-my-zsh.sh
-# End Source
 
 # Loadingtimes
 # zprof # bottom of .zshrc
