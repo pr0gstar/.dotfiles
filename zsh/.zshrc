@@ -6,7 +6,7 @@ autoload -Uz compinit
     compinit
   done
 compinit -C
- 
+
 seasonal_chevrons () {
   local date=$(date)
   local chevrons="❯❯❯"
