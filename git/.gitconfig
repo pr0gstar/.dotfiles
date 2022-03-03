@@ -1,6 +1,7 @@
-[user]
-    name = pr0gstar
-    email = c.planken@absturzsicherung.de
+[includeIf "gitdir:/Users/christoph.planken/"]
+    path = .gitconfig.work
+[includeIf "gitdir:/Users/pr0gstar/"]
+    path = .gitconfig.work
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
