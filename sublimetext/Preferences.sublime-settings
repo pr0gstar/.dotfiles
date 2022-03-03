@@ -1,0 +1,58 @@
+{
+    // Valid values: "smooth", "phase", "blink" and "solid"
+    "caret_style": "blink",
+    "caret_blink_interval": 1.1,
+    "caret_extra_top": 2,
+    "caret_extra_bottom": 3,
+    "caret_extra_width": 8,
+    "default_encoding": "utf-8",
+    "detect_indentation": false,
+    "dictionary": "Packages/Language - English/en_US.dic",
+    "draw_white_space": "all",
+    "font_face": "Cascadia Code PL",
+    "font_options":
+    [
+        "subpixel_antialias",
+        "dlig",
+        "directwrite",
+        "ss01"
+    ],
+    "font_size": 14,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "Git Conflict Resolver",
+        "GitGutter",
+        "Tabnine",
+        "Vintage",
+    ],
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+    "remember_open_files": false,
+    "rulers":
+    [
+        100
+    ],
+    "save_on_focus_lost": true,
+    "spell_check": false,
+    "tab_size": 4,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "auto_complete": true,
+    "auto_complete_triggers":
+    [
+        {
+            "characters": ".(){}[],'\"=<>/\\+-|&*%=$#@! ",
+            "selector": "source.python",
+        },
+        {
+            "characters": ":.(){}[],'\"=<>/\\+-|&*%=$#@! ",
+            "selector": "source & - source.python - constant.numeric",
+        },
+        {
+            "characters": " qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+            "selector": "text",
+        }
+    ],
+}
