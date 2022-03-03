@@ -83,7 +83,7 @@ SPACESHIP_PROMPT_ORDER=(
 export LC_ALL=en_US.UTF-8
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/apr/bin:$PATH
 export EDITOR='vi'
-export ZSH="/Users/christoph.planken/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export HISTSIZE=1000
 export SAVEHIST=1000
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
@@ -122,7 +122,9 @@ export NVM_SYMLINK_CURRENT=true
 # End PHPBrew
 
 # Begin Minikube
-eval $(minikube docker-env)
+if command -v minikube 1>/dev/null 2>&1;  then
+    eval $(minikube docker-env)
+fi
 # End Minikube
 
 # Begin pyenv
