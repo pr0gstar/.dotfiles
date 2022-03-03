@@ -1,7 +1,7 @@
 [includeIf "gitdir:/Users/christoph.planken/"]
-    path = .gitconfig.work
+    path = ~/.dotfiles/git/.gitconfig.work
 [includeIf "gitdir:/Users/pr0gstar/"]
-    path = .gitconfig.work
+    path = ~/.dotfiles/git/.gitconfig.work
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
