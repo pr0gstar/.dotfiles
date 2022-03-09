@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>alfred-sublime-text-workspace</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>CC23EEC3-8B25-4D9E-9BB8-4CC31B5D5E54</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C144CCCA-343D-478B-A14D-F103EC250FE1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DB420FBF-231D-4170-B167-CF8FC0D57B77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC23EEC3-8B25-4D9E-9BB8-4CC31B5D5E54</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nate McMaster</string>
+	<key>description</key>
+	<string>Open up recent list of Sublime Text workspace</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Sublime Text Workspaces</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C144CCCA-343D-478B-A14D-F103EC250FE1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>38</integer>
+				<key>keyword</key>
+				<string>sw</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for recent workspaces</string>
+				<key>script</key>
+				<string>import os, alfred, codecs, re, sys
+
+files=['~/Library/Application Support/Sublime Text 3/Local/Session.sublime_session',
+	'~/Library/Application Support/Sublime Text 3/Local/Auto Save Session.sublime_session',
+	'~/Library/Application Support/Sublime Text 2/Settings/Session.sublime_session',
+	'~/Library/Application Support/Sublime Text 2/Settings/Auto Save Session.sublime_session',]
+
+search = u'{query}'
+
+def errorout():
+	error=alfred.Item({'arg':'new-window'},'Open Sublime Text','No workspaces found. Open new window.')
+	xml = alfred.xml([error])
+	alfred.write(xml)
+
+expr = re.compile("\"(.*%s.*\.sublime-workspace)\"" % search)
+recentworkspaces = re.compile(".*recent_workspaces\":.*")
+data=[]
+
+for x in files:
+	p=os.path.expanduser(x)
+	if os.path.exists(p):
+		recent=False
+		with codecs.open(p,mode='r',encoding='utf-8') as f:
+			for line in f:
+				if recentworkspaces.match(line):
+					recent=True
+					continue
+				if not recent:
+					continue
+				srch = expr.search(line)		
+				if srch!= None and os.path.exists(srch.group(1)):
+					data.append(srch.group(1))
+	
+
+if len(data) &lt;= 0:
+	errorout()
+else:
+	matches=[]
+	for x in set(data): # removes duplication
+		proj=os.path.basename(x)
+		pt = os.path.expanduser(x)
+		i = alfred.Item({'arg':pt},proj,'Open %s' % x)
+		matches.append(i)
+	xml = alfred.xml(matches)
+	alfred.write(xml)
+
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Sublime Text Workspaces</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DB420FBF-231D-4170-B167-CF8FC0D57B77</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>38</integer>
+				<key>script</key>
+				<string>if [ "new-window" -eq "{query}" ]
+then
+/usr/local/bin/subl -n
+else
+/usr/local/bin/subl --project "{query}"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC23EEC3-8B25-4D9E-9BB8-4CC31B5D5E54</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>If you have issues, find this code on GitHub at https://github.com/natemcmaster/alfred-sublime-text-workspace</string>
+	<key>uidata</key>
+	<dict>
+		<key>C144CCCA-343D-478B-A14D-F103EC250FE1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>CC23EEC3-8B25-4D9E-9BB8-4CC31B5D5E54</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>DB420FBF-231D-4170-B167-CF8FC0D57B77</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/natemcmaster/alfred-sublime-text-workspace</string>
+</dict>
+</plist>

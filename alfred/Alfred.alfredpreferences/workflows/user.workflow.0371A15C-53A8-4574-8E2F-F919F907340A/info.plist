@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>EA498596-48E7-4718-8502-F396C270B44A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5772539D-EEE4-431F-90E1-57F4F439F832</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A84AEBCF-8410-47C4-BF70-063E1D4ED8FE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FBEF4B7E-F39F-4832-9AFB-5FD1077F4BBA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Christoph Planken</string>
+	<key>description</key>
+	<string>Starts all Programms relevant for the Home-Office</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Home-Office-Mode</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>home-office-mode</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Home-Office-Mode</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EA498596-48E7-4718-8502-F396C270B44A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/System/Applications/Calendar.app</string>
+					<string>/Applications/Microsoft Teams.app</string>
+					<string>/Applications/Notion.app</string>
+					<string>/Applications/Clockify Desktop.app</string>
+					<string>/Applications/Signal.app</string>
+					<string>/Applications/3CXPhone.app</string>
+					<string>/System/Applications/Mail.app</string>
+					<string>/Applications/Discord.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>5772539D-EEE4-431F-90E1-57F4F439F832</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+do shell script "open -na 'Brave Browser' --args --profile-directory='Default'"
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>A84AEBCF-8410-47C4-BF70-063E1D4ED8FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+do shell script "open -na 'Brave Browser' --args --profile-directory='Profile 1'"
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>FBEF4B7E-F39F-4832-9AFB-5FD1077F4BBA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Keywords are one of Alfred's most commonly used and most useful ways of launching actions. Set a keyword and connect it to the action(s) you want to perform.
+
+Type your keyword into Alfred, followed by your input text if needed, and you'll be on your way to boosting your productivity!</string>
+	<key>uidata</key>
+	<dict>
+		<key>5772539D-EEE4-431F-90E1-57F4F439F832</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>225</integer>
+		</dict>
+		<key>A84AEBCF-8410-47C4-BF70-063E1D4ED8FE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>400</integer>
+		</dict>
+		<key>EA498596-48E7-4718-8502-F396C270B44A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>FBEF4B7E-F39F-4832-9AFB-5FD1077F4BBA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

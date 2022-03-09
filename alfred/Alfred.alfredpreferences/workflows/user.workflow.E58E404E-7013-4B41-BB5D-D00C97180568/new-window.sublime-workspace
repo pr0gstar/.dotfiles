@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"christ",
+				"ChristophPlanken"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"term tab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"term sett",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"trm",
+				"Terminus: Close All"
+			],
+			[
+				"term",
+				"Terminus: Close All"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				" dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packe",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"termi",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remoge",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markm",
+				"Markmon launch"
+			],
+			[
+				"markmon",
+				"Markmon exit"
+			],
+			[
+				"mar",
+				"Markmon launch"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"prev",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"livepre",
+				"MarkdownLivePreview: Open Settings"
+			],
+			[
+				"markdow",
+				"MarkdownLivePreview: Open Settings"
+			],
+			[
+				"sync up",
+				"Sync Settings: Upload"
+			],
+			[
+				"rain",
+				"RainbowBrackets: clear rainbow"
+			],
+			[
+				"upload",
+				"Sync Settings: Upload"
+			],
+			[
+				"term pa",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"term pan",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"term all",
+				"Terminus: Close All"
+			],
+			[
+				"term se",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"termi pa",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminus all",
+				"Terminus: Close All"
+			],
+			[
+				"syn",
+				"Sync Settings: Upload"
+			],
+			[
+				"terminus",
+				"Terminus: Maximize to Tab"
+			],
+			[
+				"termpan",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"termi all",
+				"Terminus: Close All"
+			],
+			[
+				"termi pan",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"termin pan",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"rainbow",
+				"RainbowBrackets: clear rainbow"
+			],
+			[
+				"rain mak",
+				"RainbowBrackets: make rainbow"
+			],
+			[
+				"rainb",
+				"RainbowBrackets: clear rainbow"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tem all",
+				"Terminus: Close All"
+			],
+			[
+				"terminu",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"es",
+				"ESLint"
+			],
+			[
+				"esl",
+				"ESLint"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sync sett",
+				"Sync Settings: Edit User Settings"
+			],
+			[
+				"eslint",
+				"ESLint"
+			],
+			[
+				"esli",
+				"ESLint"
+			],
+			[
+				"prettier",
+				"Preferences: JsPrettier Settings - Side-by-Side"
+			],
+			[
+				"pret",
+				"Preferences: JsPrettier Settings - User"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"typescript",
+				"Build With: TypeScript"
+			],
+			[
+				"typescr",
+				"Build With: TypeScript"
+			],
+			[
+				"prett",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"xdebug",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdeb",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xdebg",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"git check",
+				"Git: Checkout Tag"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"git fet",
+				"Git: Fetch"
+			],
+			[
+				"bran",
+				"Git: Change Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"git ch",
+				"Git: Change Branch"
+			],
+			[
+				"git ",
+				"Git: New Branch"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git: fet",
+				"Git: Fetch"
+			],
+			[
+				"sync do",
+				"Sync Settings: Download"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"yarn build"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/pages/index.js",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/pages/_app.js",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/Resources/views/default/terms-and-conditions-form.html.twig",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/Resources/views/default/user-edit.html.twig",
+		"/Users/christoph.planken/Documents/lock-book-docu-web-2.0/src/entities/api-platform-generated/documentation.ts",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/styles/Home.module.css",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/styles/globals.css",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/gatsby-config.js",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/package.json",
+		"/Users/christoph.planken/Documents/ChristophPlanken.de/CNAME",
+		"/Users/christoph.planken/Desktop/test.mdx",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/sublime-text-markmon/sublime-text-markmon.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/sublime-text-markmon/Default (OSX).sublime-keymap",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/christoph.planken/Desktop/test.mdx.md",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/christoph.planken/Desktop/test.md",
+		"/Users/christoph.planken/Documents/timeclock/package.json",
+		"/Users/christoph.planken/Documents/timeclock/src/App.tsx",
+		"/Users/christoph.planken/.zshrc",
+		"/Users/christoph.planken/.oh-my-zsh/oh-my-zsh.sh",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/RainbowBrackets/README.md",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/Users/christoph.planken/Documents/timeclock/.eslintrc.js",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/Users/christoph.planken/Documents/timeclock/tsconfig.json",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/var/cache/dev/ContainerKadl6na/getSensioFrameworkExtra_Routing_Loader_AnnotClassService.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/vendor/sensio/framework-extra-bundle/Routing/AnnotatedRouteControllerLoader.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/var/cache/dev/ContainerKadl6na/getSensioFrameworkExtra_Routing_Loader_AnnotDirService.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/var/cache/dev/ContainerKadl6na/getSensioFrameworkExtra_Routing_Loader_AnnotFileService.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/vendor/sensio/framework-extra-bundle/Configuration/Route.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/vendor/sensio/framework-extra-bundle/Configuration/Method.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/config/parameters.yml",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/Resources/views/base-pdf.html.twig",
+		"/Users/christoph.planken/Desktop/download-script.html",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/Resources/views/base.html.twig",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/app/Resources/views/default/object-single.html.twig",
+		"/Users/christoph.planken/.ssh/known_hosts",
+		"/Users/christoph.planken/Desktop/FeedbackIHK",
+		"/Users/christoph.planken/Downloads/de.json",
+		"/Users/christoph.planken/Desktop/Impressum.md",
+		"/Users/christoph.planken/Desktop/Impressum.txt",
+		"/Users/christoph.planken/Downloads/awslogin/src/Base/Scss/app.scss",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/User/Dart - Plugin Settings.sublime-settings",
+		"/Users/christoph.planken/Library/Application Support/Sublime Text 3/Packages/Sync Settings/SyncSettings.sublime-settings",
+		"/Users/christoph.planken/Documents/lock-book-docu-web/src/AppBundle/Repository/UserRepository.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 114.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 240.0
+	},
+	"output.dart.config.check":
+	{
+		"height": 151.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 265.0
+	},
+	"output.find_results":
+	{
+		"height": 151.0
+	},
+	"output.git":
+	{
+		"height": 147.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

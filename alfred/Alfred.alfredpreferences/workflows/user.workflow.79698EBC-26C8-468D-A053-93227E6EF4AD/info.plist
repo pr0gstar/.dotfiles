@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D180B83E-0E71-4CFD-B440-308FC9F2A70A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Christoph Planken</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>reset screens</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>displayplacer "id:65A85BBA-E9F5-28FB-1F67-75CDD0432EE6 res:1920x1200 hz:59 color_depth:8 scaling:off origin:(0,0) degree:0" "id:20700F90-F184-433E-5415-B629D7B59530 res:1792x1120 hz:59 color_depth:4 scaling:on origin:(-2992,515) degree:0" "id:E8E3905C-80D9-3E97-3210-EAEEA72F387D res:1200x1920 hz:59 color_depth:8 scaling:off origin:(-1200,-285) degree:90" &amp;&amp; exit;</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>D180B83E-0E71-4CFD-B440-308FC9F2A70A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>reset screens</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>reset Screens to Work-Mode</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>displayplacer "id:65A85BBA-E9F5-28FB-1F67-75CDD0432EE6 res:1920x1200 hz:59 color_depth:8 scaling:off origin:(0,0) degree:0" "id:FD3B8B88-A20F-589A-E3F6-ABF990B9DF78 res:1680x1050 color_depth:4 scaling:on origin:(-2880,739) degree:0" "id:E8E3905C-80D9-3E97-3210-EAEEA72F387D res:1200x1920 hz:59 color_depth:8 scaling:off origin:(-1200,-285) degree:90"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA36A0F4-93E1-478E-A5FA-81594F24F04C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>D180B83E-0E71-4CFD-B440-308FC9F2A70A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>245</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>DA36A0F4-93E1-478E-A5FA-81594F24F04C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

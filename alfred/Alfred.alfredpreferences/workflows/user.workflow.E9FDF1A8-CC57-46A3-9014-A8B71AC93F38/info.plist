@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>851B7650-F834-494E-AB65-AB4B6B08F38C</key>
+		<array/>
+		<key>9B3BBF1F-5DE0-4742-8F3D-E3BD724D3B28</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>851B7650-F834-494E-AB65-AB4B6B08F38C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>SWC</string>
+	<key>description</key>
+	<string>Shows an address or driving directions in Maps.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Maps</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>$map_query = "{query}";
+$query = explode(" to ", $map_query);
+$query = str_replace(" ", "+", $query);
+$args_count = count($query);
+$map_arg = '';
+
+if ( $args_count == 1 ) {
+	$map_arg = 'q=' . trim($query[0]);
+} elseif ( $args_count == 2 ) {
+	$map_arg = 'daddr=' . $query[1] . '&amp;saddr=' . $query[0];
+} else {
+	$map_arg = 'q';
+}
+
+shell_exec('open "http://maps.apple.com/?' . $map_arg . '"');</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>851B7650-F834-494E-AB65-AB4B6B08F38C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>map</string>
+				<key>subtext</key>
+				<string>For directions enter a location the word "to" and a destination.</string>
+				<key>text</key>
+				<string>Address to display in Maps</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9B3BBF1F-5DE0-4742-8F3D-E3BD724D3B28</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>851B7650-F834-494E-AB65-AB4B6B08F38C</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>9B3BBF1F-5DE0-4742-8F3D-E3BD724D3B28</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

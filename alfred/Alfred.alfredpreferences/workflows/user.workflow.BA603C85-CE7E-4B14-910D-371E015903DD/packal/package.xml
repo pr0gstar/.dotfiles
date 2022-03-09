@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Open Recent Screen Sharing Profile</name>
+  <version>1.0</version>
+  <bundle>com.angrychimp.recent-screen-share</bundle>
+  <updated>1508857462</updated>
+  <file>recent_screen_sharing_profile.alfredworkflow</file>
+</workflow>
