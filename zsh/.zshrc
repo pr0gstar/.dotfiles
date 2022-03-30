@@ -117,12 +117,6 @@ fi
 export NVM_SYMLINK_CURRENT=true
 # End NVM
 
-# Begin Minikube
-if command -v minikube 1>/dev/null 2>&1;  then
-    eval $(minikube docker-env)
-fi
-# End Minikube
-
 # Begin pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   export PYENV_ROOT="$HOME/.pyenv"
