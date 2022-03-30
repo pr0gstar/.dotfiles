@@ -117,10 +117,6 @@ fi
 export NVM_SYMLINK_CURRENT=true
 # End NVM
 
-# Begin PHPBrew
-  [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-# End PHPBrew
-
 # Begin Minikube
 if command -v minikube 1>/dev/null 2>&1;  then
     eval $(minikube docker-env)

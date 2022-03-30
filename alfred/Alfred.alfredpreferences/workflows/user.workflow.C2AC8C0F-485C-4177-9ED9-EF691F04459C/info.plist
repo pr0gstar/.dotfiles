@@ -107,9 +107,9 @@
 					<string>/System/Applications/Reminders.app</string>
 					<string>/Applications/Notion.app</string>
 					<string>/Applications/Signal.app</string>
-					<string>/Applications/3CXPhone.app</string>
 					<string>/System/Applications/Mail.app</string>
 					<string>/Applications/Discord.app</string>
+					<string>/Applications/3CX Desktop App.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
