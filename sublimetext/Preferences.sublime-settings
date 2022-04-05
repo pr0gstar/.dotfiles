@@ -9,7 +9,8 @@
     "detect_indentation": false,
     "dictionary": "Packages/Language - English/en_US.dic",
     "draw_white_space": "all",
-    "font_face": "Cascadia Code PL",
+    // "font_face": "Cascadia Code PL",
+    "font_face": "Dank Mono",
     "font_options":
     [
         "subpixel_antialias",
@@ -32,7 +33,7 @@
     "remember_open_files": false,
     "rulers":
     [
-        100
+      100
     ],
     "save_on_focus_lost": true,
     "spell_check": false,
