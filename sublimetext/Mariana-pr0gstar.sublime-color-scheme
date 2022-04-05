@@ -174,7 +174,8 @@
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(pink)"
+            "foreground": "var(pink)",
+            "font_style": "italic"
         },
         {
             "name": "Function call",

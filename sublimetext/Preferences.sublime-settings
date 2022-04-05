@@ -13,10 +13,10 @@
     "font_face": "Dank Mono",
     "font_options":
     [
-        "subpixel_antialias",
+        // "subpixel_antialias",
         "dlig",
-        "directwrite",
-        "ss01"
+        // "directwrite",
+        // "ss01"
     ],
     "font_size": 14,
     "hot_exit": false,
