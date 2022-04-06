@@ -6,7 +6,7 @@
     "caret_extra_bottom": 3,
     "caret_extra_width": 8,
     "default_encoding": "utf-8",
-    "detect_indentation": false,
+    // "detect_indentation": false,
     "dictionary": "Packages/Language - English/en_US.dic",
     "draw_white_space": "all",
     // "font_face": "Cascadia Code PL",
@@ -18,12 +18,11 @@
         // "directwrite",
         // "ss01"
     ],
-    "font_size": 14,
+    "font_size": 15,
     "hot_exit": false,
     "ignored_packages":
     [
         "Git Conflict Resolver",
-        "GitGutter",
         "Markdown",
         "Tabnine",
         "Vintage",
