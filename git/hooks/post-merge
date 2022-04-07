@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo 'Update Fonts Folder from private Github Repo!'
+cd fonts
+git pull

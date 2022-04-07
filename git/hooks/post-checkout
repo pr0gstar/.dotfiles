@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo 'Clone Fonts Folder from private Github Repo!'
+git clone git@github.com:pr0gstar/fonts.git
