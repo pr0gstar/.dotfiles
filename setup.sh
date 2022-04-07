@@ -1,5 +1,5 @@
-ln -f -s ~/.dotfiles/hooks/post-checkout ~/.dotfiles/.git/hooks/post-checkout
-ln -f -s ~/.dotfiles/hooks/post-merge ~/.dotfiles/.git/hooks/post-merge
+ln -f -s git/hooks/post-checkout .git/hooks/post-checkout
+ln -f -s git/hooks/post-merge .git/hooks/post-merge
 ln -f -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -f -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -f -s ~/.dotfiles/sublimetext/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
