@@ -96,7 +96,8 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(pink)"
+            "foreground": "var(pink)",
+            "font_style": "italic"
         },
         {
             "name": "Operators",
@@ -137,12 +138,13 @@
             "name": "Storage type",
             "scope": "storage.type",
             "foreground": "var(pink)",
-            "font_style": "italic"
+            //"font_style": "italic"
         },
         {
             "name": "Entity name",
             "scope": "entity.name.function",
-            "foreground": "var(blue5)"
+            "foreground": "var(blue5)",
+            "font_style": "italic"
         },
         {
             "name": "Entity name",
@@ -180,7 +182,8 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(blue)"
+            "foreground": "var(blue)",
+            "font_style": "italic"
         },
         {
             "name": "Library function",
@@ -197,8 +200,9 @@
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)",
-            "font_style": "italic"
+            "foreground": "var(pink)",
+            // "foreground": "var(blue)",
+            // "font_style": "italic"
         },
         {
             "name": "Invalid",
