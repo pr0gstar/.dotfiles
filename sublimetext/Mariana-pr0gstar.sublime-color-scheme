@@ -75,7 +75,7 @@
             "name": "Number Suffix",
             "scope": "storage.type.numeric",
             "foreground": "var(pink)",
-            //"font_style": "italic"
+            "font_style": "italic"
         },
         {
             "name": "Built-in constant",
@@ -96,7 +96,6 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator - keyword.declaration.function, keyword.operator.word",
-            // "scope": "keyword.operator, keyword.operator.word",
             "foreground": "var(pink)",
             "font_style": "italic"
         },
@@ -139,7 +138,6 @@
             "name": "Storage type",
             "scope": "storage.type",
             "foreground": "var(pink)",
-            //"font_style": "italic"
         },
         {
             "name": "Entity name",
@@ -202,8 +200,6 @@
             "name": "Library class/type",
             "scope": "support.type, support.class",
             "foreground": "var(pink)",
-            // "foreground": "var(blue)",
-            // "font_style": "italic"
         },
         {
             "name": "Invalid",
