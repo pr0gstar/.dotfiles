@@ -1,0 +1,8 @@
+{
+    "theme": "mariana",
+    "view_settings": {
+        "font_face": "Cascadia Code PL",
+        "caret_style": "blink",
+        "scroll_past_end": false,
+    },
+}
