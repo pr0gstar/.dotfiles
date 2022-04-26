@@ -115,16 +115,9 @@ if [ -f "$NVM_DIR/bash_completion" ]; then
 fi
 
 export NVM_SYMLINK_CURRENT=true
-# End NVM
 
-# Begin pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  export PYENV_ROOT="$HOME/.pyenv"
-  export PATH="$PYENV_ROOT/bin:$PATH"
-  eval "$(pyenv init --path)"
-  eval "$(pyenv init -)"
-fi
-# End pyenv
+[ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g`
+# End NVM
 
 # Begin Source
 source $ZSH/oh-my-zsh.sh
