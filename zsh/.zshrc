@@ -130,6 +130,7 @@ alias ll='exa -l -a'
 alias ls='exa'
 alias gclear='git fetch -p && for branch in `git branch -vv | grep ": gone]" | awk "{print $1}"`; do git branch -D $branch; done'
 alias mod_teams='sudo sh $HOME/teams_mod.sh'
+alias docker='nerdctl'
 
 alias teams='sudo codesign --remove-signature "/Applications/Microsoft Teams.app" &&
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app" &&
@@ -140,3 +141,6 @@ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Fra
 
 # Loadingtimes
 # zprof # bottom of .zshrc
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/christoph.planken/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

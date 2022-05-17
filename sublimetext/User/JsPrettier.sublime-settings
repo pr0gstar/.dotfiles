@@ -2,6 +2,6 @@
 
 {
     // "node_path": "/usr/local/bin/node",
-    "node_path": "~/.nvm/current/bin/node",
+    // "node_path": "~/.nvm/current/bin/node",
     "auto_format_on_save": true,
 }
