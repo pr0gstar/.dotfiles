@@ -117,6 +117,18 @@ fi
 export NVM_SYMLINK_CURRENT=true
 
 [ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g`
+
+# Function for LTS Update
+function nvm-upgrade {
+  local prev_ver=$(nvm current)
+  nvm install --lts --latest-npm
+  if [ "$prev_ver" != "$(nvm current)" ]
+  then
+    nvm reinstall-packages $prev_ver
+    nvm uninstall $prev_ver
+  fi
+  nvm cache clear
+}
 # End NVM
 
 # Begin Source
