@@ -1,11 +1,11 @@
 # Loadingtimes
 # zmodload zsh/zprof # top of your .zshrc file
 
-autoload -Uz compinit
-  for dump in ~/.zcompdump(N.mh+24); do
-    compinit
-  done
-compinit -C
+# autoload -Uz compinit
+#   for dump in ~/.zcompdump(N.mh+24); do
+#     compinit
+#   done
+# compinit -C
 
 seasonal_chevrons () {
   local date=$(date)
@@ -106,6 +106,16 @@ plugins=(
   terraform
 )
 # End zsh Plugins
+
+# Begin Homebrew
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+# End Homebrew
 
 # Begin NVM
 export NVM_DIR=~/.nvm
