@@ -78,14 +78,12 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/System/Applications/Calendar.app</string>
 					<string>/Applications/Microsoft Teams.app</string>
 					<string>/Applications/Notion.app</string>
-					<string>/Applications/Clockify Desktop.app</string>
 					<string>/Applications/Signal.app</string>
-					<string>/System/Applications/Mail.app</string>
 					<string>/Applications/Discord.app</string>
 					<string>/Applications/3CX Desktop App.app</string>
+					<string>/Applications/Microsoft Outlook.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
