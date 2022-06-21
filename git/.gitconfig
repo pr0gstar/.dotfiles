@@ -22,6 +22,6 @@
 [branch]
     sort = -committerdate
 [alias]
-    start = !git checkout master && git pull && git clean -fd
+    start = !git checkout main && git pull && git clean -fd
 [includeIf "gitdir:/Users/christoph.planken/"]
     path = ~/.dotfiles/git/.gitconfig.work
