@@ -107,6 +107,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   terraform
+  yarn-autocompletions
 )
 # End zsh Plugins
 

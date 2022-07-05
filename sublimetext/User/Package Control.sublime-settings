@@ -7,6 +7,8 @@
 	[
 		"Auto Close HTML Tags",
 		"Babel",
+		"Dart",
+		"Dartlight",
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
 		"ESLint",
@@ -18,6 +20,7 @@
 		"JsPrettier",
 		"JSX",
 		"LSP",
+		"LSP-Dart",
 		"LSP-dockerfile",
 		"LSP-typescript",
 		"Markdown Extended",
