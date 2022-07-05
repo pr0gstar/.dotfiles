@@ -83,7 +83,8 @@
 					<string>/Applications/Signal.app</string>
 					<string>/Applications/Discord.app</string>
 					<string>/Applications/3CX Desktop App.app</string>
-					<string>/Applications/Microsoft Outlook.app</string>
+					<string>/System/Applications/Mail.app</string>
+					<string>/System/Applications/Calendar.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>

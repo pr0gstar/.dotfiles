@@ -86,7 +86,10 @@ export EDITOR='vi'
 export ZSH="$HOME/.oh-my-zsh"
 export HISTSIZE=1000
 export SAVEHIST=1000
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
 # End Exports
 
 # Begin zsh Plugins

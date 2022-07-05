@@ -12,16 +12,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A4C702F8-7805-4E78-B0EF-6458DE5B62BD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>5772539D-EEE4-431F-90E1-57F4F439F832</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -108,7 +98,8 @@
 					<string>/Applications/Signal.app</string>
 					<string>/Applications/Discord.app</string>
 					<string>/Applications/3CX Desktop App.app</string>
-					<string>/Applications/Microsoft Outlook.app</string>
+					<string>/System/Applications/Mail.app</string>
+					<string>/System/Applications/Calendar.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
