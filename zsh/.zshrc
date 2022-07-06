@@ -167,5 +167,5 @@ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Fra
 # Loadingtimes
 # zprof # bottom of .zshrc
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/christoph.planken/.rd/bin:$PATH"
+export PATH="/Users/pr0gstar/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
