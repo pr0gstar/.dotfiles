@@ -82,6 +82,7 @@ SPACESHIP_PROMPT_ORDER=(
 # export LC_ALL=de_DE.UTF-8
 export LC_ALL=en_US.UTF-8
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/apr/bin:$PATH
+export PATH=.nvm/current/bin:$PATH
 export EDITOR='vi'
 export ZSH="$HOME/.oh-my-zsh"
 export HISTSIZE=1000
@@ -156,6 +157,7 @@ alias ll='exa -l -a'
 alias ls='exa'
 alias gclear='git fetch -p && for branch in `git branch -vv | grep ": gone]" | awk "{print $1}"`; do git branch -D $branch; done'
 alias mod_teams='sudo sh $HOME/teams_mod.sh'
+alias brew-upgrade="brew update && brew upgrade && brew upgrade --cask && brew cleanup && brew doctor"
 
 alias teams='sudo codesign --remove-signature "/Applications/Microsoft Teams.app" &&
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app" &&
