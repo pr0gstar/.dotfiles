@@ -19,3 +19,9 @@ git checkout
 echo ''
 echo '################## Adding Fonts to System #######################'
 cp ~/.dotfiles/fonts/DankMono/OpenType-PS/* ~/Library/Fonts/
+
+
+echo ''
+echo ''
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
